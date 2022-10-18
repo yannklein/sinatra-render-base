@@ -2,9 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    async (2.2.1)
+    async (1.30.3)
       console (~> 1.10)
-      io-event (~> 1.1.0)
+      nio4r (~> 2.3)
       timers (~> 4.1)
     async-container (0.16.12)
       async
@@ -49,7 +49,6 @@ GEM
     fiber-local (1.0.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    io-event (1.1.1)
     json (2.6.2)
     localhost (1.1.9)
     mapping (1.1.1)
@@ -154,5 +153,8 @@ DEPENDENCIES
   thin (~> 1.8)
   webrick (~> 1.7)
 
+RUBY VERSION
+   ruby 3.0.3p157
+
 BUNDLED WITH
-   2.3.20
+   2.2.32
