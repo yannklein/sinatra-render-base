@@ -1,0 +1,6 @@
+services:
+  - name: sinatra-render-base
+    type: web
+    env: ruby
+    buildCommand: bundle install
+    startCommand: bundle exec rackup -p 4567 config.ru
